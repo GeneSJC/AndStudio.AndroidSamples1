@@ -73,4 +73,11 @@
      android:text="Drag n Drop Sun via DnD-Util"
      />
      
+     <Button
+     android:id="@+id/btn_layout_preview"
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:text="Preview All Project Layouts"
+     />
+
 </LinearLayout>

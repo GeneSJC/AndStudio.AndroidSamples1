@@ -42,6 +42,10 @@
             android:name=".CircleDrawingActivity"
             android:label="DemoTabs" >
         </activity>
+        <activity
+            android:name=".LayoutPreviewActivity"
+            android:label="Layout Preview" >
+        </activity>
     </application>
 
 </manifest>

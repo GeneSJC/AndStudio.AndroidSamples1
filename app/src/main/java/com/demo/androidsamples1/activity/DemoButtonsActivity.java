@@ -55,6 +55,8 @@ public class DemoButtonsActivity extends Activity
 		
 		connectButtonToActivity(R.id.circle_drawing_activity_button, CircleDrawingActivity.class);
 		connectButtonToActivity(R.id.dnd_with_util_btn, DrawableActivity.class);
+
+        connectButtonToActivity (R.id.btn_layout_preview, LayoutPreviewActivity.class );
 	}
 
 	private void connectButtonToActivity(int androidResourceId, final Class activityClass)
